@@ -1,3 +1,4 @@
+# list containing dictionaries
 favourite_albums = [
     {
         "artist": "Smashing Pumpkins",
@@ -16,9 +17,11 @@ favourite_albums = [
     }
 ]
 
+# function that uses dictionary
 def find_album_year(album_name):
     for album in favourite_albums:
         if album["album"] == album_name:
             return album["year"]
 
+# call function
 print(find_album_year("El Camino"))
