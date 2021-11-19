@@ -5,7 +5,7 @@ favourite_albums = [
         "year": "1993"
     },
     {
-        "artist": "The Racontuers",
+        "artist": "The Raconteurs",
         "album": "Broken Boy Soldiers",
         "year": "2006"
     },
